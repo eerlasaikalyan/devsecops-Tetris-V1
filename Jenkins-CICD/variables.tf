@@ -8,11 +8,11 @@ variable "key_name" {
 }
 variable "instance_type" {
   description = "instance type for ec2"
-  default     = "t2.medium"
+  default     = "t3.small"
 }
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0df4b2961410d4cff"
+  default     = "ami-05d2d839d4f73aafb"
 }
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
